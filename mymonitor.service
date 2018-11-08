@@ -1,0 +1,7 @@
+[Unit]
+Description=Example service for monitoring
+[Service]
+ExecStart=python /opt/mymonitor.py
+User=root
+[Install]
+WantedBy=multi-user.target
